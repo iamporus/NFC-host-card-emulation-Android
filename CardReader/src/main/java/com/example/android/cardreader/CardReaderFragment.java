@@ -19,13 +19,14 @@ package com.example.android.cardreader;
 import android.app.Activity;
 import android.nfc.NfcAdapter;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.android.common.logger.Log;
+
+import androidx.fragment.app.Fragment;
 
 /**
  * Generic UI for sample discovery.
